@@ -17,5 +17,9 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:NalbertC/dev-web.git",
+  "author": "viserys <vitoriaperez6@gmail.com>",
+  "license": "MIT"
 }
