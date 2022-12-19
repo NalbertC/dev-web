@@ -37,7 +37,7 @@ export function Main() {
                             <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/html' />
-                                <CodigoExemplo src='/' />
+                                <CodigoExemplo src='https://github.com/vndp/Trabalhos_em_HTML' />
                             </div>
                         </CardLinguagem>
 
