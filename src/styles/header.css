@@ -1,14 +1,14 @@
 
-header {
+.header {
   position: relative;
   display: flex;
   align-items: center;
   text-align: center;
   height: 72px;
   justify-content: center;
-
   background-color: #121721;
   border-bottom: solid #1b202a 1px;
+
 }
 
 
@@ -89,8 +89,6 @@ header {
   .menu-btn .icon:before {
     content: "\f00d";
   }
-
-
 
   .navbar .menu {
     background-color: #121721;
