@@ -1,14 +1,14 @@
 .title-page {
-    color: #0c0f16;
-    font-size: 68px;
+  color: #0c0f16;
+  font-size: 68px;
 }
 
 .subtitle-page {
-    color: #0c0f16;
-    font-size: 48px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-
+  color: #0c0f16;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
 }
+
