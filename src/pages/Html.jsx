@@ -138,7 +138,7 @@ export function Html() {
                 <p>Outras tags de bloco populares são:</p>
                 <ul>
                     <li>Tags de Cabeçalho – elas variam entre   &lt;h1&gt; e
-                        &lt;h&gt;, onde h1 tem um tamanho maior, que vai diminuindo até chegar no h6.</li>
+                        &lt;h6&gt;, onde h1 tem um tamanho maior, que vai diminuindo até chegar no h6.</li>
                     <li>Tags de parágrafo – são abertas usando a tag   &lt;p&gt;.</li>
                     <li>Tags de lista – possuem diferentes variações. Use a tag
                         &lt;ol&gt; para uma lista ordenada, e a tag
@@ -204,8 +204,9 @@ export function Html() {
 
                 <p>O HTML é uma linguagem amigável para iniciantes, que possui bastante suporte e é principalmente usada para páginas estáticas. O HTML funciona melhor quando usado em conjunto com o CSS para aplicar o estilo e com o JavaScript para implementar funcionalidades. Você pode conferir como linkar o HTML com CSS no nosso blog.</p>
                 <img src={html} alt="" height={200} />
-                <Footer />
+
             </MainContent>
+            <Footer />
         </>
 
     );
