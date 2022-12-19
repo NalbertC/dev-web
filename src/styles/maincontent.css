@@ -6,6 +6,7 @@
     color: #0c0f16;
     padding-left: 24px;
     padding-right: 24px;
+
     
 }
 
@@ -18,5 +19,6 @@
     background-color: #f9f3fa;
     padding-left: 24px;
     padding-right: 24px;
+    font-family: 'PT Sans', sans-serif;
     /* height: 100vh; */
 }

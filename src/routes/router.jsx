@@ -7,6 +7,7 @@ import { Home } from "../pages/Home";
 import { Html } from '../pages/Html';
 import { Javasript } from '../pages/Javascript';
 import { Navegadores } from '../pages/Navegadores';
+import { NotFound } from '../pages/NotFound';
 import { React } from '../pages/React';
 import { Vscode } from '../pages/Vscode';
 
@@ -23,6 +24,7 @@ export function Routers() {
                 <Route path='/navegadores' element={<Navegadores />} />
                 <Route path='/servicos-hopedagem' element={<Cloud />} />
                 <Route path='/sobre' element={<About />} />
+                <Route path='/*' element={<NotFound />} />
 
             </Routes>
         </Router>
