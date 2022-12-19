@@ -86,7 +86,7 @@ export function Main() {
 
                         <CardLinguagem title='Navegadores Web'
                             src={browsers}>
-                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Um navegador web leva você a qualquer lugar na internet, permitindo ver textos, imagens e vídeos de qualquer lugar do mundo.</span>
                             <div className=" card-footer">
                                 <Artigo src='/navegadores' />
                             </div>
@@ -94,7 +94,7 @@ export function Main() {
 
                         <CardLinguagem title='Serviços de Hospedagem'
                             src={cloud}>
-                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Hospedagem na Web é um serviço que armazena sites ou aplicações na Web para torná-los facilmente acessíveis em diferentes dispositivos como desktops, celulares e tablets.</span>
                             <div className=" card-footer">
                                 <Artigo src='/servicos-hopedagem' />
                             </div>
