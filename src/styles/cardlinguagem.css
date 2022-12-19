@@ -55,3 +55,14 @@
     width: 100%;
     justify-content: space-evenly;
 }
+@media (max-width: 1030px ) {
+    .card {
+        border-left: solid 1px ;
+    }
+}
+
+@media (max-width: 870px ){
+    .card{
+     border-left: none;
+    }
+}

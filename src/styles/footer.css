@@ -9,13 +9,9 @@
 footer {
   width: 100%;
   flex-direction: column;
-  
   bottom: 0;
   font-family: 'Poppins', sans-serif;
-
   margin-top:  200px;
-
-
 }
 
 .footer-sup {

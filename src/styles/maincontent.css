@@ -1,0 +1,22 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #0c0f16;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.content-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: calc(960px + (2 * 24px));
+    background-color: #f9f3fa;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* height: 100vh; */
+}

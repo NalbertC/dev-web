@@ -17,14 +17,14 @@ export const Header = () => {
           <div className="max-width" >
 
             <div className="logo">
-           
+
               <a href="/"> <img className="logo" src={logo} alt="Logo" />  </a>
             </div>
 
             <ul className={respons ? 'menu' : 'menu on'}  >
-              <li><a href="/" className="menu-btn"><AiOutlineHome/> Home</a></li>
+              <li><a href="/" className="menu-btn"><AiOutlineHome /> Home</a></li>
               {/* <li><a href="/" className="menu-btn">Sobre Empresa</a></li> */}
-              <li><a href="/" className="menu-btn"><AiOutlineTeam/> Sobre nós</a></li>
+              <li><a href="/sobre" className="menu-btn"><AiOutlineTeam /> Sobre nós</a></li>
             </ul>
 
             <div className="menu-btn" onClick={() => { setResponse(!respons) }}>

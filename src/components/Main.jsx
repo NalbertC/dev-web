@@ -15,6 +15,7 @@ import cloud from "../assets/cloud.png"
 
 import { Artigo } from "./Artigo"
 import { CodigoExemplo } from "./CodigoExemplo"
+import { Telefone } from "./Telefone"
 
 export function Main() {
     return < >
@@ -32,7 +33,7 @@ export function Main() {
                             src={html}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/html' />
                                 <CodigoExemplo src='/' />
                             </div>
                         </CardLinguagem>
@@ -41,7 +42,7 @@ export function Main() {
                             src={css}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/css' />
                                 <CodigoExemplo src='/' />
                             </div>
                         </CardLinguagem>
@@ -50,7 +51,7 @@ export function Main() {
                             src={js}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/javascript' />
                                 <CodigoExemplo src='/' />
                             </div>
                         </CardLinguagem>
@@ -59,7 +60,7 @@ export function Main() {
                             src={react}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/react' />
                                 <CodigoExemplo src='/' />
                             </div>
                         </CardLinguagem>
@@ -76,7 +77,7 @@ export function Main() {
                             src={vscode}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/vscode' />
                             </div>
                         </CardLinguagem>
 
@@ -84,7 +85,7 @@ export function Main() {
                             src={browsers}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/navegadores' />
                             </div>
                         </CardLinguagem>
 
@@ -92,17 +93,14 @@ export function Main() {
                             src={cloud}>
                             <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
-                                <Artigo src='/' />
+                                <Artigo src='/servicos-hopedagem' />
                             </div>
                         </CardLinguagem>
-
-
-
-
-
                     </main>
                 </article>
+                
             </main>
+            <Telefone/>
         </div>
     </>
 }
