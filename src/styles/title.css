@@ -1,7 +1,15 @@
 .title-page {
     color: #0c0f16;
     font-size: 68px;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+.title2{
+    font-size: 48px;
+    color: #0c0f16;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 .subtitle-page {
     color: #0c0f16;
@@ -10,5 +18,5 @@
     align-items: center;
     text-align: center;
     gap: 8px;
-
+    line-height: 48px; 
 }

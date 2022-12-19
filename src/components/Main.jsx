@@ -2,7 +2,7 @@
 import img from "../assets/post_tribo_web.png"
 import "../styles/main.css"
 import { CardLinguagem } from "./CardLinguagem"
-import { SubTitle } from "./SubTitle"
+import { SubTitle, Title2 } from "./SubTitle"
 
 
 import html from "../assets/html5.svg"
@@ -20,10 +20,13 @@ import { Telefone } from "./Telefone"
 export function Main() {
     return < >
         <div className="flex content">
+
+            
             <img src={img} alt="" />
 
-            <SubTitle title="Tecnologias de Desenvolvimento Web" />
+            <Title2 title='Tecnologias de Desenvolvimento Web'/>
 
+        
             <main className="flex main">
 
                 <article className="flex linguagem">
@@ -31,7 +34,7 @@ export function Main() {
                     <main>
                         <CardLinguagem title='Html'
                             src={html}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/html' />
                                 <CodigoExemplo src='/' />
@@ -40,7 +43,7 @@ export function Main() {
 
                         <CardLinguagem title='Css'
                             src={css}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/css' />
                                 <CodigoExemplo src='/' />
@@ -49,7 +52,7 @@ export function Main() {
 
                         <CardLinguagem title='JavaScript'
                             src={js}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/javascript' />
                                 <CodigoExemplo src='/' />
@@ -58,7 +61,7 @@ export function Main() {
 
                         <CardLinguagem title='React'
                             src={react}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/react' />
                                 <CodigoExemplo src='/' />
@@ -75,7 +78,7 @@ export function Main() {
                     <main>
                         <CardLinguagem title='VSCode IDE'
                             src={vscode}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/vscode' />
                             </div>
@@ -83,7 +86,7 @@ export function Main() {
 
                         <CardLinguagem title='Navegadores Web'
                             src={browsers}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/navegadores' />
                             </div>
@@ -91,7 +94,7 @@ export function Main() {
 
                         <CardLinguagem title='Serviços de Hospedagem'
                             src={cloud}>
-                            <span>Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
+                            <span className="card-content">Lorem ipsum dol dfghdfdf dfgdfg dfgdfg dfgdfg or sit amet consectetur adipisicing elit. Corporis consectetur facere perferendis accusamus veritatis. Quos accusantium temporibus nemo dicta.</span>
                             <div className=" card-footer">
                                 <Artigo src='/servicos-hopedagem' />
                             </div>
