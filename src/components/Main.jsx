@@ -22,7 +22,7 @@ export function Main() {
         <div className="flex content">
 
 
-            <img src={img} alt="" />
+            <img src={img} alt="" className="imagem" />
 
             <Title2 title='Tecnologias de Desenvolvimento Web' />
 

@@ -15,6 +15,11 @@
 
 }
 
+.imagem{
+    max-width: 960px;
+    width: 100%;
+}
+
 h3 {
     font-size: 24px;
     color: #0c0f16;
